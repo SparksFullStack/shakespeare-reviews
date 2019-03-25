@@ -30,7 +30,6 @@ class ReviewsContainer extends Component {
                 console.log(err);
                 this.setState({ requestLimitExceeded: true });
             });
-        // this.handleSortReviews(this.state.testReviews);
    }
 
    handleSortReviews = (reviews) => {
