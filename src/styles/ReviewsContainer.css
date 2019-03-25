@@ -1,0 +1,46 @@
+.reviews {
+    min-height: 450px;
+    position: relative;
+}
+
+.reviews-container {
+    text-align: center;
+    height: 100%;
+}
+
+.reviews--header {
+    margin: 40px 0;
+}
+
+.reviews--header::after {
+    display: block;
+    height: 2px;
+    background-color: #800020;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.pagination-buttons--container {
+    position: relative;
+    display: flex;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.pagination-buttons {
+    width: 100px;
+    margin: 0 20px;
+}
+
+.btn-outline-danger {
+    border-color: #800020 !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: #800020 !important;
+}
+

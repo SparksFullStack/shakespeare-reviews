@@ -1,0 +1,10 @@
+.navbar-brand {
+    font-family: MedievalSharp;
+    font-size: 2em !important;
+    color: #dc3545 !important;
+}
+
+.nav-link {
+    font-size: 1.8rem;
+    font-family: MedievalSharp;
+}

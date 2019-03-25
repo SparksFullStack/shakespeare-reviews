@@ -1,0 +1,33 @@
+.review-card {
+    min-height: 300px !important;
+    margin-bottom: 20px;
+}
+
+.review-card--header{
+    height: 80px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-card--title {
+    margin-bottom: 0 !important;
+}
+
+.review-card--body {
+    height: 250px !important;
+}
+
+
+.review-card--date {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+}
+
+.starRating {
+    /* bottom: 12%;
+    left: 5%;
+    position: absolute; */
+    text-align: left;
+}

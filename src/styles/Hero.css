@@ -1,0 +1,35 @@
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/hero-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero--text {
+    max-width: 500px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.h1 {
+    font-family: MedievalSharp;
+}
+
+.hero--text--subheader {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.hero--button {
+    margin-top: 10px;
+    color: #fff !important;
+}
+
+.hero--button-link {
+    color: #fff !important;
+    text-decoration: none !important;
+}

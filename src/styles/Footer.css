@@ -1,0 +1,15 @@
+
+
+.footer--text {
+    margin-top: 10px;
+}
+
+.footer--text--link {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.footer--text--link:hover {
+    color: #fff;
+    transform: scale(1.5);
+}
