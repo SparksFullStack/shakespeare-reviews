@@ -14,9 +14,11 @@ import StarRating from './StarRating';
 
 class Review extends Component {
     handleFormatDate = () => {
-        let tIndex = this.props.reviewState.publish_date.indexOf('T');
-        let newDate = this.props.reviewState.publish_date.split("").splice(0, tIndex).join("");
-        return newDate;
+        const { publish_date } = this.props.reviewState;
+        console.log(publish_date);
+        const newDate = new Date(publish_date);
+        const finalDate = `${newDate.getDay()}-${newDate.getMonth()}-${newDate.getFullYear()}`;
+        return finalDate;
     }
 
     render() {

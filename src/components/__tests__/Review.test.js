@@ -10,8 +10,11 @@ const reviewState = {
     "author": "Kaley Schiller"
 }
 
-describe('the review card', () => {
+describe.only('the review card', () => {
     let wrapper;
-    beforeEach(() => wrapper = render(<Review reviewState />));
-    it('should render a title for the card', () => console.log(wrapper.find('.card').length));
+    beforeEach(() => wrapper = render(<Review reviewState={reviewState} />));
+    it('should render a title for the card', () => {
+        const date = wrapper.find('.text-muted');
+        expect(date.text()).toEqual('Review left on: 9-5-2016');
+    });
 });
